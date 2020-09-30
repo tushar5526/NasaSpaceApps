@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: d57acb047b0600f4dbb3bb6ff8a9c230
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Trebuchet MS
+  fontNames:
+  - Trebuchet MS
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3002887054ed731478d3071c3d614bf6, type: 3}
+  - {fileID: 12800000, guid: 05633744c4b024a48947fc7cd8d742e1, type: 3}
+  - {fileID: 12800000, guid: 8229bfc56ac11f04dbadfc1a43749491, type: 3}
+  - {fileID: 12800000, guid: 569ec55668436ac49bdddfa786b01614, type: 3}
+  - {fileID: 12800000, guid: 76afdb98c3ad4a64c9c89c14efd309eb, type: 3}
+  - {fileID: 12800000, guid: b0b1f5ba9d2a03941a8d6a8cb95be53c, type: 3}
+  - {fileID: 12800000, guid: 6690c84e5e6e0ab4392d485e05e8f8e3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

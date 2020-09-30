@@ -59,7 +59,7 @@
                 var location = _locationStorages[i];
                 spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
                 spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
-                spawnedObject.transform.localPosition = new Vector3(spawnedObject.transform.localPosition.x, spawnedObject.transform.localPosition.y + 0.1f, spawnedObject.transform.localPosition.z);
+                //spawnedObject.transform.localPosition = new Vector3(spawnedObject.transform.localPosition.x, spawnedObject.transform.localPosition.y + 0.1f, spawnedObject.transform.localPosition.z);
             }
         }
     }
