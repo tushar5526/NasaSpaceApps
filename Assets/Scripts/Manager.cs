@@ -11,6 +11,8 @@ public class Manager : MonoBehaviour
     public static Manager ins;
     public string[] order = { "USA", "Asia", "Europe" };
     public Vector2 location;
+
+    public bool showData = false;
     
     private void Awake()
     {
@@ -26,5 +28,10 @@ public class Manager : MonoBehaviour
     public void setExploreLocation(string name)
     {
         Debug.Log("set location called with name " + name);
+    }
+
+    public void SetShowData()
+    {
+        showData = true;
     }
 }

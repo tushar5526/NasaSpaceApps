@@ -62,7 +62,6 @@ namespace UnityARInterface
 			//effectively similar to calling HitTest with ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent
 			if (Physics.Raycast(ray, out hit, maxRayDistance, collisionLayerMask))
             {
-                Debug.Log(hit.transform.parent.name);
                 Debug.Log(hit.transform.name);
                 //we're going to get the position from the contact point
                 foundSquare.transform.position = hit.point;
@@ -79,7 +78,7 @@ namespace UnityARInterface
 
                 if (_lastGazedUpon != null)
                 {
-                    if (hit.transform.tag == "ExploreCube")
+                    if (hit.transform.tag == "ExploreCube" || hit.transform.tag == "LocationMarker")
                     {
                         Manager.gazedObject(hit.transform.parent.name);
                     }
