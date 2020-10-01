@@ -33,12 +33,12 @@
 
             foreach (NasaLocations ns in nasaLocations)
             {
-                ns._locations = new Vector2d[ns._locationStrings.Length];
+                ns._locations = new Vector2d[ns.locationsHolder.Length];
                 GameObject parentObj = new GameObject();
                 parentObj.name = ns.continentName;
-                for (int i = 0; i < ns._locationStrings.Length; i++)
+                for (int i = 0; i < ns.locationsHolder.Length; i++)
                 {
-                    var locationString = ns._locationStrings[i];
+                    var locationString = ns.locationsHolder[i]._locationString;
                     ns._locations[i] = Conversions.StringToLatLon(locationString);
                     _locationStorages.Add(ns._locations[i]);
                     var instance = Instantiate(_markerPrefab, parentObj.transform);
@@ -68,10 +68,17 @@
     public class NasaLocations
     {
         public string continentName;
-        [SerializeField]
-        [Geocode]
-        public string[] _locationStrings;
+        public locationHolder[] locationsHolder;
         public Vector2d[] _locations;
+
+    }
+
+    [System.Serializable]
+    public class locationHolder
+    {
+        public string locationName;
+        [Geocode]
+        public string _locationString;
     }
 }
 

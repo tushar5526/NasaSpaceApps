@@ -10,6 +10,12 @@ public class ExploreCubesController : MonoBehaviour
     [SerializeField]
     private Vector3 _initialScale;
     // Start is called before the first frame update
+
+    public void Awake()
+    {
+        Manager.gazedObject += currentGazedObject;
+    }
+
     void Start()
     {
         _initialScale = transform.localScale;
@@ -26,5 +32,18 @@ public class ExploreCubesController : MonoBehaviour
         {
             transform.localScale = Vector3.Lerp(transform.localScale, _initialScale, 0.3f);
         }
+    }
+
+    // this is an event fired in ARFocusSquare.cs
+    public void currentGazedObject(string name)
+    {
+        Debug.Log("current gazed obj " + name);
+        if (this.transform.name == name) isGazing = true;
+        else isGazing = false;
+    }
+
+    public void OnDisable()
+    {
+        Manager.gazedObject -= currentGazedObject;
     }
 }

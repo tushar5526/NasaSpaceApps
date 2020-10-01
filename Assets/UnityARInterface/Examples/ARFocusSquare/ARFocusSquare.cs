@@ -62,6 +62,7 @@ namespace UnityARInterface
 			//effectively similar to calling HitTest with ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent
 			if (Physics.Raycast(ray, out hit, maxRayDistance, collisionLayerMask))
             {
+                Debug.Log(hit.transform.parent.name);
                 Debug.Log(hit.transform.name);
                 //we're going to get the position from the contact point
                 foundSquare.transform.position = hit.point;
@@ -73,8 +74,23 @@ namespace UnityARInterface
                 //foundSquare.transform.rotation = hit.transform.rotation;
 
                 //lerp the size of gaze
-                gaze.transform.localScale = Vector3.Lerp(gaze.transform.localScale, new Vector3(1f, 1f, 1f), 0.2f);
+                gaze.transform.localScale = Vector3.Lerp(gaze.transform.localScale, new Vector3(0.7f, 0.7f, 0.7f), 0.2f);
 
+
+                if (_lastGazedUpon != null)
+                {
+                    if (hit.transform.tag == "ExploreCube")
+                    {
+                        Manager.gazedObject(hit.transform.parent.name);
+                    }
+                    else
+                    {
+                        Manager.gazedObject(hit.transform.name);
+                    }
+                }
+
+                _lastGazedUpon = hit.transform;
+                /*
                 if (hit.transform.tag == "ExploreCube")
                 {
                     if (_lastGazedUpon != null && _lastGazedUpon.name != hit.transform.name)
@@ -94,8 +110,11 @@ namespace UnityARInterface
                         _lastGazedUpon.transform.parent.GetComponent<ExploreCubesController>().isGazing = false;
                     }
                 }
+                */
                 return;
 			}
+            Manager.gazedObject("");
+            /*
             else
             {
                 if (_lastGazedUpon != null)
@@ -103,6 +122,7 @@ namespace UnityARInterface
                     _lastGazedUpon.transform.parent.GetComponent<ExploreCubesController>().isGazing = false;
                 }
             }
+            */
             gaze.transform.localScale = Vector3.Lerp(gaze.transform.localScale, _initialGazeScale, 0.2f);
             
             /*
@@ -138,5 +158,6 @@ namespace UnityARInterface
             */
 
         }
+
     }
 }
