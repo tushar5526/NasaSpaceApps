@@ -56,7 +56,6 @@ public class Manager : MonoBehaviour
         }
         Debug.Log("coroutine Done");
         map.UpdateMap(finalLatLong, zoom);
-
     }
 
     public void SetMapZoomLatLong(float zoom, Vector2d coor)

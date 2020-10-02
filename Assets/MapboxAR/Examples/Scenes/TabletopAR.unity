@@ -7403,7 +7403,7 @@ PrefabInstance:
     - target: {fileID: 114378541491328834, guid: c0ce4c9dacbd84ff09f18011abded7e6,
         type: 3}
       propertyPath: _terrain._layerProperty.elevationLayerType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114378541491328834, guid: c0ce4c9dacbd84ff09f18011abded7e6,
         type: 3}
