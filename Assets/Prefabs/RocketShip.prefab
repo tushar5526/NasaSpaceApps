@@ -124,8 +124,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -645,6 +645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DetailedInfoButtons
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559394888753736383, guid: 7198c3da4fa350d418dcdf9712f721ed,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8559394888753736379, guid: 7198c3da4fa350d418dcdf9712f721ed,
         type: 3}
