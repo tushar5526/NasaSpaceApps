@@ -35,6 +35,7 @@
             {
                 ns._locations = new Vector2d[ns.locationsHolder.Length];
                 GameObject parentObj = new GameObject();
+                parentObj.tag = ns.continentName;
                 parentObj.name = ns.continentName;
                 for (int i = 0; i < ns.locationsHolder.Length; i++)
                 {
@@ -43,6 +44,7 @@
                     _locationStorages.Add(ns._locations[i]);
                     var instance = Instantiate(_markerPrefab, parentObj.transform);
                     instance.name = ns.locationsHolder[i].locationName;
+                    instance.GetComponent<RocketShipController>().latLong = ns._locations[i];
                     instance.transform.localPosition = _map.GeoToWorldPosition(ns._locations[i], true);
                     instance.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
                     _spawnedObjects.Add(instance);

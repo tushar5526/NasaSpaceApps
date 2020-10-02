@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Mapbox.Utils;
 
 public class RocketShipController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class RocketShipController : MonoBehaviour
     public GameObject detailedInfoHolder;
     public GameObject basicInfoHolder;
     public TMP_Text locationNameHolder;
+    public Vector2d latLong;
 
     bool isGazing = false;
 
@@ -37,6 +39,12 @@ public class RocketShipController : MonoBehaviour
             basicInfoHolder.SetActive(false);
             detailedInfoHolder.SetActive(false);
         }
+    }
+
+    public void ZoomIn(int val = 16)
+    {
+        //enable portal
+        Manager.ins.SetMapZoomLatLong(16, latLong);
     }
 
     private void OnDestroy()

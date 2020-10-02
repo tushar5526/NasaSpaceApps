@@ -6,6 +6,10 @@ TagManager:
   tags:
   - ExploreCube
   - LocationMarker
+  - USA
+  - Asia
+  - Europe
+  - Space
   layers:
   - Default
   - TransparentFX
