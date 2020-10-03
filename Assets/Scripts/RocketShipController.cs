@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Mapbox.Utils;
+using Michsky.UI.ModernUIPack;
 
 public class RocketShipController : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class RocketShipController : MonoBehaviour
     public GameObject basicInfoHolder;
     public TMP_Text locationNameHolder;
     public Vector2d latLong;
+
+    public ModalWindowManager panelScript;
 
     bool isGazing = false;
 
@@ -46,6 +49,12 @@ public class RocketShipController : MonoBehaviour
         //enable portal
         Manager.ins.SetMapZoomLatLong(16, latLong);
     }
+
+    public void ShowPanels()
+    {
+        panelScript.OpenWindow();
+    }
+
 
     private void OnDestroy()
     {

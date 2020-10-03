@@ -11,8 +11,11 @@ public class Manager : MonoBehaviour
     public static GazedObject gazedObject;
     public Vector3[] zoomLevel;
     public static Manager ins;
-    public string[] order = { "USA", "Asia", "Europe" };
+    public string[] order = { "North America", "Asia", "Europe", "Australia" };
     public AbstractMap map;
+    public GameObject continentHolder;
+    public GameObject homeButton;
+    public GameObject[] rocketHolderList;
 
     public bool showData = false;
     
@@ -26,7 +29,10 @@ public class Manager : MonoBehaviour
         else
             Destroy(gameObject);
     }
-
+    private void Start()
+    {
+        rocketHolderList = new GameObject[order.Length];
+    }
     public void setExploreLocation(string name)
     {
         SetShowData();
@@ -35,12 +41,13 @@ public class Manager : MonoBehaviour
         foreach(string n in order)
         {
             ++id;
+            GameObject obj = GameObject.FindGameObjectWithTag(n);
+            rocketHolderList[id] = obj;
             if (n == name)
             {
                 // SetMapZoomLatLong(zoomLevel[id].x, new Vector2d(zoomLevel[id].y, zoomLevel[id].z));
                 continue;
             }
-            GameObject obj = GameObject.FindGameObjectWithTag(n);
             obj.SetActive(false);
         }
     }
@@ -65,9 +72,23 @@ public class Manager : MonoBehaviour
         StartCoroutine(SetMapValues(map.Zoom, zoom, map.CenterLatitudeLongitude, coor, 3.5f));
     }
 
+    public void ExploreReturnToHome()
+    {
+        continentHolder.SetActive(true);
+        SetMapZoomLatLong(1.349f, new Vector2d(30.7425946295217, 18.6913493899822));
+        foreach (string n in order)
+        {
+            foreach(GameObject g in rocketHolderList)
+            {
+                g.SetActive(true);
+            }
+        }
+    }
+
 
     public void SetShowData()
     {
+        homeButton.SetActive(true);
         showData = true;
     }
 }
