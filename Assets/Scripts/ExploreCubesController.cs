@@ -42,8 +42,9 @@ public class ExploreCubesController : MonoBehaviour
         else isGazing = false;
     }
 
-    public void OnDisable()
+    public void OnDestroy()
     {
         Manager.gazedObject -= currentGazedObject;
     }
+
 }

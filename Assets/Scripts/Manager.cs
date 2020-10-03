@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mapbox.Unity.Map;
 using Mapbox.Utils;
+using TMPro;
+using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Manager : MonoBehaviour
 {
@@ -16,8 +19,9 @@ public class Manager : MonoBehaviour
     public GameObject continentHolder;
     public GameObject homeButton;
     public GameObject[] rocketHolderList;
-
     public bool showData = false;
+    public DataHolder[] dataHolder;
+
     
     private void Awake()
     {
@@ -45,7 +49,7 @@ public class Manager : MonoBehaviour
             rocketHolderList[id] = obj;
             if (n == name)
             {
-                // SetMapZoomLatLong(zoomLevel[id].x, new Vector2d(zoomLevel[id].y, zoomLevel[id].z));
+                SetMapZoomLatLong(zoomLevel[id].x, new Vector2d(zoomLevel[id].y, zoomLevel[id].z));
                 continue;
             }
             obj.SetActive(false);
@@ -67,9 +71,7 @@ public class Manager : MonoBehaviour
 
     public void SetMapZoomLatLong(float zoom, Vector2d coor)
     {
-        //map.SetZoom(zoom);
-        //map.SetCenterLatitudeLongitude(coor);
-        StartCoroutine(SetMapValues(map.Zoom, zoom, map.CenterLatitudeLongitude, coor, 3.5f));
+        StartCoroutine(SetMapValues(map.Zoom, zoom, map.CenterLatitudeLongitude, coor, 2.5f));
     }
 
     public void ExploreReturnToHome()
@@ -91,4 +93,19 @@ public class Manager : MonoBehaviour
         homeButton.SetActive(true);
         showData = true;
     }
+}
+[System.Serializable]
+public class DataHolder
+{
+    public string name;
+    [TextArea(3,10)]
+    public string info;
+    [TextArea(3, 10)]
+    public string collbarations;
+    public Sprite image;
+    [TextArea(3, 10)]
+    public string activities;
+    public string url;
+    public Sprite[] imgs;
+    public VideoClip clip;
 }

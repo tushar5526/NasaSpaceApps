@@ -44,7 +44,27 @@
                     _locationStorages.Add(ns._locations[i]);
                     var instance = Instantiate(_markerPrefab, parentObj.transform);
                     instance.name = ns.locationsHolder[i].locationName;
-                    instance.GetComponent<RocketShipController>().latLong = ns._locations[i];
+                    RocketShipController script = instance.GetComponent<RocketShipController>();
+                    script.latLong = ns._locations[i];
+                    foreach(DataHolder dh in Manager.ins.dataHolder)
+                    {
+                        if(instance.name == dh.name)
+                        {
+                            script.url = dh.url;
+                            script.info.text = dh.info;
+                            script.collabrations.text = dh.collbarations;
+                            script.activities.text = dh.activities;
+                            script.logo.sprite = dh.image;
+                            script.locName.text = dh.name;
+                            int id = 0;
+                            foreach (Sprite img in dh.imgs)
+                            {
+                                script.imgs[id++].sprite = img;
+                            }
+                            script.player.clip = dh.clip;
+                            break;
+                        }
+                    }
                     instance.transform.localPosition = _map.GeoToWorldPosition(ns._locations[i], true);
                     instance.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
                     _spawnedObjects.Add(instance);
