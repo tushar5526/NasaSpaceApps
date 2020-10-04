@@ -1,0 +1,791 @@
+fileFormatVersion: 2
+guid: 14c9ff34105762c4fbae424ac0218627
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 01 Zarya - (FGB) Funtional Cargo Block
+    100002: 02 Unity Node 1
+    100004: 03 (PMA) Pressurized Mating Adapter 1
+    100006: 04 (PMA) Pressurized Mating Adapter 2
+    100008: 05 Zvezda (SM) Service Module
+    100010: 06 Z1 Truss
+    100012: 07 (PMA) Pressurized Mating Adapter 3
+    100014: 08 P6 Truss
+    100016: 08 P6 Truss_01
+    100018: 08 P6 Truss_02
+    100020: 09 Destiny Space Laboratory
+    100022: 10 (ESP) External Stowage Platform 1
+    100024: 11 Canadarm2
+    100026: 11 Canadarm2_02
+    100028: 11 Canadarm2_03
+    100030: 11 Canadarm2_04
+    100032: 11 Canadarm2_05
+    100034: 11 Canadarm2_06
+    100036: 11 Canadarm2_07
+    100038: 11 Canadarm2_08
+    100040: 12 Quest Airlock
+    100042: 13 Pirs Docking Compartment (DC) and Airlock
+    100044: 14 S0 Truss
+    100046: 15 (MBS) Mobile Base System
+    100048: 16 S1 Truss
+    100050: 16 S1 Truss_02
+    100052: 17 P1 Truss
+    100054: 17 P1 Truss_02
+    100056: 18 ESP External Stowage Platform 2
+    100058: 19 P3 Truss
+    100060: 20 P4 Truss
+    100062: 20 P4 Truss_01
+    100064: 20 P4 Truss_02
+    100066: 21 P5 Truss
+    100068: 22 S3 Truss
+    100070: 23 S4 Truss
+    100072: 23 S4 Truss_01
+    100074: 23 S4 Truss_02
+    100076: 24 S5 Truss
+    100078: 25 (ESP) External Stowage Platform 3
+    100080: 26 Harmony Node 2
+    100082: 27 Columbus Space Laboratory
+    100084: 28 Kibo Space Laboratory (PSM) Pressurized Stowage Module
+    100086: 29 DEXTRE
+    100088: 29 DEXTRE.001
+    100090: 29 DEXTRE.002
+    100092: 29 DEXTRE.003
+    100094: 29 DEXTRE.004
+    100096: 29 DEXTRE.005
+    100098: 29 DEXTRE.006
+    100100: 29 DEXTRE.007
+    100102: 29 DEXTRE.008
+    100104: 29 DEXTRE.009
+    100106: 29 DEXTRE.010
+    100108: 29 DEXTRE.011
+    100110: 29 DEXTRE.012
+    100112: 29 DEXTRE.013
+    100114: 29 DEXTRE.014
+    100116: 29 DEXTRE.015
+    100118: 30 Kibo Space Laboratory (PSM) Pressurized Module
+    100120: 31 Robotic Arm
+    100122: 31 Robotic Arm.001
+    100124: 31 Robotic Arm.002
+    100126: 31 Robotic Arm.003
+    100128: 31 Robotic Arm.004
+    100130: 31 Robotic Arm.005
+    100132: 32 S6 Truss
+    100134: 32 S6 Truss_01
+    100136: 32 S6 Truss_02
+    100138: 33 Kibo Space Laboratory Exposed Platform
+    100140: 34 Poisk (MRM-2) Mini Research Module
+    100142: 35 Express Logistics Carrier (ELC) 1
+    100144: 36 Express Logistics Carrier (ELC) 2
+    100146: 37 Tranquility Node 3
+    100148: 38 Cupola
+    100150: 38 Cupola.001
+    100152: 38 Cupola.002
+    100154: 38 Cupola.003
+    100156: 38 Cupola.004
+    100158: 38 Cupola.005
+    100160: 38 Cupola.006
+    100162: 38 Cupola.007
+    100164: 39 Rassvet (MRM-1) Mini Research Module
+    100166: 40 Leonardo_Raffaello Perm Multi-Purpose Logistics Module (PMM)
+    100168: 41 Express Logistics Carrier (ELC) 4
+    100170: 42 Alpha Magnetic Spectrometer (AMS 2)
+    100172: 43 Express Logistics Carrier (ELC) 3
+    100174: 44 Enhanced ISS Boom Assembly (EIBA)
+    100176: 45 RapidScat
+    100178: _root
+    100180: Camera
+    100182: CATS
+    100184: Cube
+    100186: Destiny_Window_Cover
+    100188: ECOStress
+    100190: hinge_01_p
+    100192: hinge_01_s
+    100194: hinge_02_p
+    100196: hinge_02_s
+    100198: hinge_03_p
+    100200: hinge_03_s
+    100202: hinge_04_p
+    100204: hinge_04_s
+    100206: ISS
+    100208: //RootNode
+    100210: Light
+    100212: OCO3
+    100214: panel_01_p
+    100216: panel_01_p.001
+    100218: panel_01_s
+    100220: panel_01_s.001
+    100222: panel_02_p
+    100224: panel_02_p.001
+    100226: panel_02_s
+    100228: panel_02_s.001
+    100230: panel_03_p
+    100232: panel_03_p.001
+    100234: panel_03_s
+    100236: panel_03_s.001
+    100238: panel_04_p
+    100240: panel_04_p.001
+    100242: panel_04_s
+    100244: panel_04_s.001
+    100246: panel_05_p
+    100248: panel_05_s
+    100250: panel_06_p
+    100252: panel_06_s
+    100254: panel_07_p
+    100256: panel_07_s
+    100258: panel_08_p
+    100260: panel_08_s
+    100262: panel_09_p
+    100264: panel_09_s
+    100266: panel_bracket_p
+    100268: panel_bracket_s
+    100270: RapidScat_dish
+    400000: 01 Zarya - (FGB) Funtional Cargo Block
+    400002: 02 Unity Node 1
+    400004: 03 (PMA) Pressurized Mating Adapter 1
+    400006: 04 (PMA) Pressurized Mating Adapter 2
+    400008: 05 Zvezda (SM) Service Module
+    400010: 06 Z1 Truss
+    400012: 07 (PMA) Pressurized Mating Adapter 3
+    400014: 08 P6 Truss
+    400016: 08 P6 Truss_01
+    400018: 08 P6 Truss_02
+    400020: 09 Destiny Space Laboratory
+    400022: 10 (ESP) External Stowage Platform 1
+    400024: 11 Canadarm2
+    400026: 11 Canadarm2_02
+    400028: 11 Canadarm2_03
+    400030: 11 Canadarm2_04
+    400032: 11 Canadarm2_05
+    400034: 11 Canadarm2_06
+    400036: 11 Canadarm2_07
+    400038: 11 Canadarm2_08
+    400040: 12 Quest Airlock
+    400042: 13 Pirs Docking Compartment (DC) and Airlock
+    400044: 14 S0 Truss
+    400046: 15 (MBS) Mobile Base System
+    400048: 16 S1 Truss
+    400050: 16 S1 Truss_02
+    400052: 17 P1 Truss
+    400054: 17 P1 Truss_02
+    400056: 18 ESP External Stowage Platform 2
+    400058: 19 P3 Truss
+    400060: 20 P4 Truss
+    400062: 20 P4 Truss_01
+    400064: 20 P4 Truss_02
+    400066: 21 P5 Truss
+    400068: 22 S3 Truss
+    400070: 23 S4 Truss
+    400072: 23 S4 Truss_01
+    400074: 23 S4 Truss_02
+    400076: 24 S5 Truss
+    400078: 25 (ESP) External Stowage Platform 3
+    400080: 26 Harmony Node 2
+    400082: 27 Columbus Space Laboratory
+    400084: 28 Kibo Space Laboratory (PSM) Pressurized Stowage Module
+    400086: 29 DEXTRE
+    400088: 29 DEXTRE.001
+    400090: 29 DEXTRE.002
+    400092: 29 DEXTRE.003
+    400094: 29 DEXTRE.004
+    400096: 29 DEXTRE.005
+    400098: 29 DEXTRE.006
+    400100: 29 DEXTRE.007
+    400102: 29 DEXTRE.008
+    400104: 29 DEXTRE.009
+    400106: 29 DEXTRE.010
+    400108: 29 DEXTRE.011
+    400110: 29 DEXTRE.012
+    400112: 29 DEXTRE.013
+    400114: 29 DEXTRE.014
+    400116: 29 DEXTRE.015
+    400118: 30 Kibo Space Laboratory (PSM) Pressurized Module
+    400120: 31 Robotic Arm
+    400122: 31 Robotic Arm.001
+    400124: 31 Robotic Arm.002
+    400126: 31 Robotic Arm.003
+    400128: 31 Robotic Arm.004
+    400130: 31 Robotic Arm.005
+    400132: 32 S6 Truss
+    400134: 32 S6 Truss_01
+    400136: 32 S6 Truss_02
+    400138: 33 Kibo Space Laboratory Exposed Platform
+    400140: 34 Poisk (MRM-2) Mini Research Module
+    400142: 35 Express Logistics Carrier (ELC) 1
+    400144: 36 Express Logistics Carrier (ELC) 2
+    400146: 37 Tranquility Node 3
+    400148: 38 Cupola
+    400150: 38 Cupola.001
+    400152: 38 Cupola.002
+    400154: 38 Cupola.003
+    400156: 38 Cupola.004
+    400158: 38 Cupola.005
+    400160: 38 Cupola.006
+    400162: 38 Cupola.007
+    400164: 39 Rassvet (MRM-1) Mini Research Module
+    400166: 40 Leonardo_Raffaello Perm Multi-Purpose Logistics Module (PMM)
+    400168: 41 Express Logistics Carrier (ELC) 4
+    400170: 42 Alpha Magnetic Spectrometer (AMS 2)
+    400172: 43 Express Logistics Carrier (ELC) 3
+    400174: 44 Enhanced ISS Boom Assembly (EIBA)
+    400176: 45 RapidScat
+    400178: _root
+    400180: Camera
+    400182: CATS
+    400184: Cube
+    400186: Destiny_Window_Cover
+    400188: ECOStress
+    400190: hinge_01_p
+    400192: hinge_01_s
+    400194: hinge_02_p
+    400196: hinge_02_s
+    400198: hinge_03_p
+    400200: hinge_03_s
+    400202: hinge_04_p
+    400204: hinge_04_s
+    400206: ISS
+    400208: //RootNode
+    400210: Light
+    400212: OCO3
+    400214: panel_01_p
+    400216: panel_01_p.001
+    400218: panel_01_s
+    400220: panel_01_s.001
+    400222: panel_02_p
+    400224: panel_02_p.001
+    400226: panel_02_s
+    400228: panel_02_s.001
+    400230: panel_03_p
+    400232: panel_03_p.001
+    400234: panel_03_s
+    400236: panel_03_s.001
+    400238: panel_04_p
+    400240: panel_04_p.001
+    400242: panel_04_s
+    400244: panel_04_s.001
+    400246: panel_05_p
+    400248: panel_05_s
+    400250: panel_06_p
+    400252: panel_06_s
+    400254: panel_07_p
+    400256: panel_07_s
+    400258: panel_08_p
+    400260: panel_08_s
+    400262: panel_09_p
+    400264: panel_09_s
+    400266: panel_bracket_p
+    400268: panel_bracket_s
+    400270: RapidScat_dish
+    2000000: Camera
+    2100000: Material
+    2100002: ISS_01_dull
+    2100004: ISS_01_shiny_n
+    2100006: ISS_AO_01
+    2100008: ISS_AO_02
+    2100010: ISS_02_dull
+    2100012: ISS_03_dull
+    2100014: ISS_AO_06
+    2100016: shiny_panel
+    2100018: olive _
+    2100020: ISS_AO_04
+    2100022: ISS_AO_03
+    2100024: ISS_01_dark _
+    2100026: foil_silver
+    2100028: ISS_03_shiny_n
+    2100030: ISS_02_dark _
+    2100032: ISS_04_dull
+    2100034: ISS_AO_05
+    2100036: ISS_AO_07
+    2100038: ISS_AO_08
+    2100040: No Name
+    2100042: white
+    2100044: base_metal
+    2100046: ISS_03_dull.001
+    2100048: ecostress
+    2100050: plastic black
+    2100052: ecostressWhite
+    2100054: ISS_03_dull.002
+    2100056: ecostress metal
+    2100058: ecostress_dexter
+    2300000: 01 Zarya - (FGB) Funtional Cargo Block
+    2300002: 02 Unity Node 1
+    2300004: 03 (PMA) Pressurized Mating Adapter 1
+    2300006: 04 (PMA) Pressurized Mating Adapter 2
+    2300008: 05 Zvezda (SM) Service Module
+    2300010: 06 Z1 Truss
+    2300012: 07 (PMA) Pressurized Mating Adapter 3
+    2300014: 08 P6 Truss
+    2300016: 08 P6 Truss_01
+    2300018: 08 P6 Truss_02
+    2300020: 09 Destiny Space Laboratory
+    2300022: 10 (ESP) External Stowage Platform 1
+    2300024: 11 Canadarm2
+    2300026: 11 Canadarm2_02
+    2300028: 11 Canadarm2_03
+    2300030: 11 Canadarm2_04
+    2300032: 11 Canadarm2_05
+    2300034: 11 Canadarm2_06
+    2300036: 11 Canadarm2_07
+    2300038: 11 Canadarm2_08
+    2300040: 12 Quest Airlock
+    2300042: 13 Pirs Docking Compartment (DC) and Airlock
+    2300044: 14 S0 Truss
+    2300046: 15 (MBS) Mobile Base System
+    2300048: 16 S1 Truss
+    2300050: 16 S1 Truss_02
+    2300052: 17 P1 Truss
+    2300054: 17 P1 Truss_02
+    2300056: 18 ESP External Stowage Platform 2
+    2300058: 19 P3 Truss
+    2300060: 20 P4 Truss
+    2300062: 20 P4 Truss_01
+    2300064: 20 P4 Truss_02
+    2300066: 21 P5 Truss
+    2300068: 22 S3 Truss
+    2300070: 23 S4 Truss
+    2300072: 23 S4 Truss_01
+    2300074: 23 S4 Truss_02
+    2300076: 24 S5 Truss
+    2300078: 25 (ESP) External Stowage Platform 3
+    2300080: 26 Harmony Node 2
+    2300082: 27 Columbus Space Laboratory
+    2300084: 28 Kibo Space Laboratory (PSM) Pressurized Stowage Module
+    2300086: 29 DEXTRE
+    2300088: 29 DEXTRE.001
+    2300090: 29 DEXTRE.002
+    2300092: 29 DEXTRE.003
+    2300094: 29 DEXTRE.004
+    2300096: 29 DEXTRE.005
+    2300098: 29 DEXTRE.006
+    2300100: 29 DEXTRE.007
+    2300102: 29 DEXTRE.008
+    2300104: 29 DEXTRE.009
+    2300106: 29 DEXTRE.010
+    2300108: 29 DEXTRE.011
+    2300110: 29 DEXTRE.012
+    2300112: 29 DEXTRE.013
+    2300114: 29 DEXTRE.014
+    2300116: 29 DEXTRE.015
+    2300118: 30 Kibo Space Laboratory (PSM) Pressurized Module
+    2300120: 31 Robotic Arm
+    2300122: 31 Robotic Arm.001
+    2300124: 31 Robotic Arm.002
+    2300126: 31 Robotic Arm.003
+    2300128: 31 Robotic Arm.004
+    2300130: 31 Robotic Arm.005
+    2300132: 32 S6 Truss
+    2300134: 32 S6 Truss_01
+    2300136: 32 S6 Truss_02
+    2300138: 33 Kibo Space Laboratory Exposed Platform
+    2300140: 34 Poisk (MRM-2) Mini Research Module
+    2300142: 35 Express Logistics Carrier (ELC) 1
+    2300144: 36 Express Logistics Carrier (ELC) 2
+    2300146: 37 Tranquility Node 3
+    2300148: 38 Cupola
+    2300150: 38 Cupola.001
+    2300152: 38 Cupola.002
+    2300154: 38 Cupola.003
+    2300156: 38 Cupola.004
+    2300158: 38 Cupola.005
+    2300160: 38 Cupola.006
+    2300162: 38 Cupola.007
+    2300164: 39 Rassvet (MRM-1) Mini Research Module
+    2300166: 40 Leonardo_Raffaello Perm Multi-Purpose Logistics Module (PMM)
+    2300168: 41 Express Logistics Carrier (ELC) 4
+    2300170: 42 Alpha Magnetic Spectrometer (AMS 2)
+    2300172: 43 Express Logistics Carrier (ELC) 3
+    2300174: 44 Enhanced ISS Boom Assembly (EIBA)
+    2300176: 45 RapidScat
+    2300178: CATS
+    2300180: Cube
+    2300182: Destiny_Window_Cover
+    2300184: ECOStress
+    2300186: hinge_01_p
+    2300188: hinge_01_s
+    2300190: hinge_02_p
+    2300192: hinge_02_s
+    2300194: hinge_03_p
+    2300196: hinge_03_s
+    2300198: hinge_04_p
+    2300200: hinge_04_s
+    2300202: ISS
+    2300204: OCO3
+    2300206: panel_01_p
+    2300208: panel_01_p.001
+    2300210: panel_01_s
+    2300212: panel_01_s.001
+    2300214: panel_02_p
+    2300216: panel_02_p.001
+    2300218: panel_02_s
+    2300220: panel_02_s.001
+    2300222: panel_03_p
+    2300224: panel_03_p.001
+    2300226: panel_03_s
+    2300228: panel_03_s.001
+    2300230: panel_04_p
+    2300232: panel_04_p.001
+    2300234: panel_04_s
+    2300236: panel_04_s.001
+    2300238: panel_05_p
+    2300240: panel_05_s
+    2300242: panel_06_p
+    2300244: panel_06_s
+    2300246: panel_07_p
+    2300248: panel_07_s
+    2300250: panel_08_p
+    2300252: panel_08_s
+    2300254: panel_09_p
+    2300256: panel_09_s
+    2300258: panel_bracket_p
+    2300260: panel_bracket_s
+    2300262: RapidScat_dish
+    3300000: 01 Zarya - (FGB) Funtional Cargo Block
+    3300002: 02 Unity Node 1
+    3300004: 03 (PMA) Pressurized Mating Adapter 1
+    3300006: 04 (PMA) Pressurized Mating Adapter 2
+    3300008: 05 Zvezda (SM) Service Module
+    3300010: 06 Z1 Truss
+    3300012: 07 (PMA) Pressurized Mating Adapter 3
+    3300014: 08 P6 Truss
+    3300016: 08 P6 Truss_01
+    3300018: 08 P6 Truss_02
+    3300020: 09 Destiny Space Laboratory
+    3300022: 10 (ESP) External Stowage Platform 1
+    3300024: 11 Canadarm2
+    3300026: 11 Canadarm2_02
+    3300028: 11 Canadarm2_03
+    3300030: 11 Canadarm2_04
+    3300032: 11 Canadarm2_05
+    3300034: 11 Canadarm2_06
+    3300036: 11 Canadarm2_07
+    3300038: 11 Canadarm2_08
+    3300040: 12 Quest Airlock
+    3300042: 13 Pirs Docking Compartment (DC) and Airlock
+    3300044: 14 S0 Truss
+    3300046: 15 (MBS) Mobile Base System
+    3300048: 16 S1 Truss
+    3300050: 16 S1 Truss_02
+    3300052: 17 P1 Truss
+    3300054: 17 P1 Truss_02
+    3300056: 18 ESP External Stowage Platform 2
+    3300058: 19 P3 Truss
+    3300060: 20 P4 Truss
+    3300062: 20 P4 Truss_01
+    3300064: 20 P4 Truss_02
+    3300066: 21 P5 Truss
+    3300068: 22 S3 Truss
+    3300070: 23 S4 Truss
+    3300072: 23 S4 Truss_01
+    3300074: 23 S4 Truss_02
+    3300076: 24 S5 Truss
+    3300078: 25 (ESP) External Stowage Platform 3
+    3300080: 26 Harmony Node 2
+    3300082: 27 Columbus Space Laboratory
+    3300084: 28 Kibo Space Laboratory (PSM) Pressurized Stowage Module
+    3300086: 29 DEXTRE
+    3300088: 29 DEXTRE.001
+    3300090: 29 DEXTRE.002
+    3300092: 29 DEXTRE.003
+    3300094: 29 DEXTRE.004
+    3300096: 29 DEXTRE.005
+    3300098: 29 DEXTRE.006
+    3300100: 29 DEXTRE.007
+    3300102: 29 DEXTRE.008
+    3300104: 29 DEXTRE.009
+    3300106: 29 DEXTRE.010
+    3300108: 29 DEXTRE.011
+    3300110: 29 DEXTRE.012
+    3300112: 29 DEXTRE.013
+    3300114: 29 DEXTRE.014
+    3300116: 29 DEXTRE.015
+    3300118: 30 Kibo Space Laboratory (PSM) Pressurized Module
+    3300120: 31 Robotic Arm
+    3300122: 31 Robotic Arm.001
+    3300124: 31 Robotic Arm.002
+    3300126: 31 Robotic Arm.003
+    3300128: 31 Robotic Arm.004
+    3300130: 31 Robotic Arm.005
+    3300132: 32 S6 Truss
+    3300134: 32 S6 Truss_01
+    3300136: 32 S6 Truss_02
+    3300138: 33 Kibo Space Laboratory Exposed Platform
+    3300140: 34 Poisk (MRM-2) Mini Research Module
+    3300142: 35 Express Logistics Carrier (ELC) 1
+    3300144: 36 Express Logistics Carrier (ELC) 2
+    3300146: 37 Tranquility Node 3
+    3300148: 38 Cupola
+    3300150: 38 Cupola.001
+    3300152: 38 Cupola.002
+    3300154: 38 Cupola.003
+    3300156: 38 Cupola.004
+    3300158: 38 Cupola.005
+    3300160: 38 Cupola.006
+    3300162: 38 Cupola.007
+    3300164: 39 Rassvet (MRM-1) Mini Research Module
+    3300166: 40 Leonardo_Raffaello Perm Multi-Purpose Logistics Module (PMM)
+    3300168: 41 Express Logistics Carrier (ELC) 4
+    3300170: 42 Alpha Magnetic Spectrometer (AMS 2)
+    3300172: 43 Express Logistics Carrier (ELC) 3
+    3300174: 44 Enhanced ISS Boom Assembly (EIBA)
+    3300176: 45 RapidScat
+    3300178: CATS
+    3300180: Cube
+    3300182: Destiny_Window_Cover
+    3300184: ECOStress
+    3300186: hinge_01_p
+    3300188: hinge_01_s
+    3300190: hinge_02_p
+    3300192: hinge_02_s
+    3300194: hinge_03_p
+    3300196: hinge_03_s
+    3300198: hinge_04_p
+    3300200: hinge_04_s
+    3300202: ISS
+    3300204: OCO3
+    3300206: panel_01_p
+    3300208: panel_01_p.001
+    3300210: panel_01_s
+    3300212: panel_01_s.001
+    3300214: panel_02_p
+    3300216: panel_02_p.001
+    3300218: panel_02_s
+    3300220: panel_02_s.001
+    3300222: panel_03_p
+    3300224: panel_03_p.001
+    3300226: panel_03_s
+    3300228: panel_03_s.001
+    3300230: panel_04_p
+    3300232: panel_04_p.001
+    3300234: panel_04_s
+    3300236: panel_04_s.001
+    3300238: panel_05_p
+    3300240: panel_05_s
+    3300242: panel_06_p
+    3300244: panel_06_s
+    3300246: panel_07_p
+    3300248: panel_07_s
+    3300250: panel_08_p
+    3300252: panel_08_s
+    3300254: panel_09_p
+    3300256: panel_09_s
+    3300258: panel_bracket_p
+    3300260: panel_bracket_s
+    3300262: RapidScat_dish
+    4300000: Cube
+    4300002: 02 Unity Node 1
+    4300004: 03 (PMA) Pressurized Mating Adapter 1
+    4300006: 01 Zarya - (FGB) Funtional Cargo Block
+    4300008: 05 Zvezda (SM) Service Module
+    4300010: 13 Pirs Docking Compartment (DC) and Airlock
+    4300012: 34 Poisk (MRM-2) Mini Research Module
+    4300014: panel_01_p.001
+    4300016: panel_01_s.001
+    4300018: panel_02_p.001
+    4300020: panel_02_s.001
+    4300022: panel_03_p.001
+    4300024: panel_03_s.001
+    4300026: panel_04_p.001
+    4300028: panel_04_s.001
+    4300030: panel_05_p
+    4300032: panel_05_s
+    4300034: panel_06_p
+    4300036: panel_06_s
+    4300038: panel_07_p
+    4300040: panel_07_s
+    4300042: panel_08_p
+    4300044: panel_08_s
+    4300046: panel_09_p
+    4300048: panel_09_s
+    4300050: panel_bracket_p
+    4300052: panel_bracket_s
+    4300054: 39 Rassvet (MRM-1) Mini Research Module
+    4300056: 06 Z1 Truss
+    4300058: 09 Destiny Space Laboratory
+    4300060: 10 (ESP) External Stowage Platform 1
+    4300062: 14 S0 Truss
+    4300064: 15 (MBS) Mobile Base System
+    4300066: 11 Canadarm2
+    4300068: 11 Canadarm2_02
+    4300070: 11 Canadarm2_03
+    4300072: 11 Canadarm2_04
+    4300074: 11 Canadarm2_05
+    4300076: 11 Canadarm2_06
+    4300078: 11 Canadarm2_07
+    4300080: 11 Canadarm2_08
+    4300082: 29 DEXTRE
+    4300084: 29 DEXTRE.001
+    4300086: 29 DEXTRE.002
+    4300088: 29 DEXTRE.003
+    4300090: 29 DEXTRE.004
+    4300092: 29 DEXTRE.005
+    4300094: 29 DEXTRE.006
+    4300096: 29 DEXTRE.007
+    4300098: 29 DEXTRE.008
+    4300100: 29 DEXTRE.009
+    4300102: 29 DEXTRE.010
+    4300104: 29 DEXTRE.011
+    4300106: 29 DEXTRE.012
+    4300108: 29 DEXTRE.013
+    4300110: 29 DEXTRE.014
+    4300112: 29 DEXTRE.015
+    4300114: 16 S1 Truss
+    4300116: 16 S1 Truss_02
+    4300118: 22 S3 Truss
+    4300120: 23 S4 Truss
+    4300122: 24 S5 Truss
+    4300124: 23 S4 Truss_01
+    4300126: 23 S4 Truss_02
+    4300128: 32 S6 Truss
+    4300130: 32 S6 Truss_01
+    4300132: 32 S6 Truss_02
+    4300134: 25 (ESP) External Stowage Platform 3
+    4300136: 36 Express Logistics Carrier (ELC) 2
+    4300138: 41 Express Logistics Carrier (ELC) 4
+    4300140: 42 Alpha Magnetic Spectrometer (AMS 2)
+    4300142: 44 Enhanced ISS Boom Assembly (EIBA)
+    4300144: 17 P1 Truss
+    4300146: 17 P1 Truss_02
+    4300148: 19 P3 Truss
+    4300150: 20 P4 Truss
+    4300152: 21 P5 Truss
+    4300154: 08 P6 Truss
+    4300156: 08 P6 Truss_01
+    4300158: 08 P6 Truss_02
+    4300160: 20 P4 Truss_01
+    4300162: 20 P4 Truss_02
+    4300164: 35 Express Logistics Carrier (ELC) 1
+    4300166: 43 Express Logistics Carrier (ELC) 3
+    4300168: 26 Harmony Node 2
+    4300170: 04 (PMA) Pressurized Mating Adapter 2
+    4300172: 27 Columbus Space Laboratory
+    4300174: 45 RapidScat
+    4300176: RapidScat_dish
+    4300178: 30 Kibo Space Laboratory (PSM) Pressurized Module
+    4300180: 28 Kibo Space Laboratory (PSM) Pressurized Stowage Module
+    4300182: 31 Robotic Arm
+    4300184: 31 Robotic Arm.001
+    4300186: 31 Robotic Arm.002
+    4300188: 31 Robotic Arm.003
+    4300190: 31 Robotic Arm.004
+    4300192: 31 Robotic Arm.005
+    4300194: 33 Kibo Space Laboratory Exposed Platform
+    4300196: CATS
+    4300198: Destiny_Window_Cover
+    4300200: 12 Quest Airlock
+    4300202: 18 ESP External Stowage Platform 2
+    4300204: 37 Tranquility Node 3
+    4300206: 07 (PMA) Pressurized Mating Adapter 3
+    4300208: 38 Cupola
+    4300210: 38 Cupola.001
+    4300212: 38 Cupola.002
+    4300214: 38 Cupola.003
+    4300216: 38 Cupola.004
+    4300218: 38 Cupola.005
+    4300220: 38 Cupola.006
+    4300222: 38 Cupola.007
+    4300224: ISS
+    4300226: 40 Leonardo_Raffaello Perm Multi-Purpose Logistics Module (PMM)
+    4300228: panel_01_p
+    4300230: hinge_02_p
+    4300232: panel_03_p
+    4300234: hinge_04_p
+    4300236: hinge_01_p
+    4300238: panel_02_p
+    4300240: hinge_03_p
+    4300242: panel_04_p
+    4300244: panel_01_s
+    4300246: hinge_02_s
+    4300248: panel_03_s
+    4300250: hinge_04_s
+    4300252: hinge_03_s
+    4300254: panel_04_s
+    4300256: panel_02_s
+    4300258: hinge_01_s
+    4300260: OCO3
+    4300262: ECOStress
+    10800000: Light
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

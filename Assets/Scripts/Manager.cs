@@ -56,6 +56,19 @@ public class Manager : MonoBehaviour
         }
     }
 
+    public void StoreData()
+    {
+        SetShowData();
+
+        int id = -1;
+        foreach (string n in order)
+        {
+            ++id;
+            GameObject obj = GameObject.FindGameObjectWithTag(n);
+            rocketHolderList[id] = obj;
+        }
+    }
+
     private IEnumerator SetMapValues(float initZoom, float zoom, Vector2d initLatLong, Vector2d finalLatLong, float time)
     {
         float elapsedTime = 0;

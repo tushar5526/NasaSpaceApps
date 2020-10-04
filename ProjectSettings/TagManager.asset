@@ -11,6 +11,7 @@ TagManager:
   - Space
   - North America
   - Australia
+  - Satellites
   layers:
   - Default
   - TransparentFX
