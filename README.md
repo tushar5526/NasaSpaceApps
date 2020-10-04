@@ -7,11 +7,11 @@ Astro BackyAR is educational AR based space exploring solution to augment your r
 
 ### Features:
 - No More Boring 2D Maps, Astro BackyARd augment the reality with 3D Maps.
+![img](ImagesReadme/NASAimg1.PNG)
 -----------------------------------------------------------
-![img](ImagesReadme/1601737077115.png)
 - Get connected with the updates of Space Exploration Work done by different organizations, government agencies and other communities of all the continents.
 --------------------------------------------------------------------
-![img](ImagesReadme/NASAimg1.PNG)
+![img](ImagesReadme/NASAimg7.PNG)
 - Keep you aware with Historical Activites and Work of Space Organizations and Communities, Displays comprehensive information of all the past missions, present project and future planninngs of the Organizations.
 --------------------------------------------------------------
 ![img](ImagesReadme/NASAimg2.PNG)
@@ -29,7 +29,6 @@ Astro BackyAR is educational AR based space exploring solution to augment your r
 ![img](ImagesReadme/NASAimg6.PNG)
 - Important Links and News Portals to keep the user updated current activities of those organizations
 ----------------------------------------------------------------------------------
-![img](ImagesReadme/NASAimg7.PNG)
 
 
 ## Glimpses:
