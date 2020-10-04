@@ -82,5 +82,11 @@ public class RocketShipController : MonoBehaviour
     public void ShowVideo()
     {
         videoScript.OpenWindow();
+        player.Play();
+    }
+
+    public void PauseVideo()
+    {
+        player.Pause();
     }
 }
